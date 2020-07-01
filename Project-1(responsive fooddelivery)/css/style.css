@@ -1,0 +1,188 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+#navbar {
+  display: flex;
+  position: sticky;
+  align-items: center;
+  padding: 8px;
+}
+#navbar::before {
+  content: "";
+  background-color: black;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.7;
+}
+.list {
+  display: flex;
+}
+.list li {
+  list-style: none;
+}
+.list li a {
+  text-decoration: none;
+  padding: 12px;
+  color: white;
+}
+.list li a:hover {
+  background: white;
+  color: black;
+  border-radius: 5px;
+}
+
+/* Logo  */
+#logo img {
+  height: 38px;
+  width: 38px;
+}
+#logo {
+  margin: 4px 8px 0px 4px;
+}
+#head {
+  display: flex;
+  flex-direction: column;
+  padding: 187px 194px;
+  height: 550px;
+  justify-content: center;
+  align-items: center;
+}
+#head::before {
+  content: "";
+  position: absolute;
+  background: url(../bg1.jpg) no-repeat center center/cover;
+  height: 580px;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.6;
+}
+.head p {
+  font-size: 1.5rem;
+}
+#btn {
+  padding: 6px 20px;
+  border: 2px solid white;
+  background-color: brown;
+  color: white;
+  margin: 17px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 30%;
+  text-align: center;
+}
+/* services */
+#services h1 {
+  padding: 0px 24px 34px 24px;
+  text-align: center;
+}
+.outerbody {
+  display: flex;
+}
+.body {
+  border: 2px solid black;
+  text-align: center;
+  justify-content: center;
+  margin: 12px;
+  border-radius: 12px;
+  background: rgb(179, 238, 233);
+  padding: 18px;
+}
+
+.body img {
+  height: 79px;
+  margin: 12px;
+}
+/* clients */
+#clients {
+  /* margin: 12px; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+#clients img {
+  height: 152px;
+  width: 154px;
+  padding: 14px;
+  margin: 35px;
+}
+
+#clients::before {
+  content: "";
+  position: absolute;
+  background: url("../bg.jpg");
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.3;
+}
+
+/* Contact Section */
+#contact {
+  position: relative;
+}
+#contact::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.7;
+  background: url("../contact.jpg") no-repeat center center/cover;
+}
+#contact-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 34px;
+}
+#contact-box input,
+#contact-box textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 9px;
+  font-size: 1.1rem;
+}
+
+#contact-box form {
+  width: 40%;
+}
+
+#contact-box label {
+  font-size: 1.3rem;
+  /* font-family: "Bree Serif", serif; */
+}
+footer {
+  background: black;
+  color: white;
+  padding: 9px 20px;
+}
+.heading {
+  font-size: 2.7rem;
+  text-align: center;
+  padding: 12px;
+}
+.primaryheading {
+  font-size: 3rem;
+  text-align: center;
+  padding: 3px;
+  color: white;
+}
+
+.secondaryheading {
+  margin: 26px 0px;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
+#end {
+  text-align: center;
+}
